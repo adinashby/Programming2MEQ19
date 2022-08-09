@@ -361,7 +361,7 @@ For each object, java will allocate two pieces of memory to it, one to store the
 
   ```java
   // Example of calling a non-static method
-  public static void main(){
+  public static void main() {
       Clock c1 = new Clock();
     c1.nonStaticMethod();
   }
