@@ -38,7 +38,7 @@ Some pre-defined classes:
 | `Math.min(num1, num2)` | find the smaller number of two          | `Math.min(1, 2)` returns 1                                    |
 | `Math.max(num1, num2)` | find the larger number of two           | `Math.max(1, 2)` returns 2                                    |
 | `Math.sqrt(num)`       | calculate the square root of a number   | `Math.sqrt(4)` returns 2.0                                    |
-| `Math.pow(num)`        | calculate the power of a number         | `Math.pow(3, 2)` returns 9                                    |
+| `Math.pow(num, toPwr)` | calculate the power of a number         | `Math.pow(3, 2)` returns 9                                    |
 | `Math.round(num)`      | round a number up or down               | `Math.round(3.14)` returns 3<br />`Math.round(3.8)` returns 4 |
 | `Math.ceil(num)`       | round a number up                       | `Math.ceil(3.14)` returns 4                                   |
 | `Math.floor(num)`      | round a number down                     | `Math.floor(3.8)` returns 3                                   |
