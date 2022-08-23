@@ -28,7 +28,7 @@ int[][][] numsss = new int[4][][];		// {null, null, null, null}
 // initialize a 2-d array with 2 sizes
 // [2][3]: 2 rows, 3 columns
 int[][] numss2 = new int[2][3];				// {{0, 0, 0}, {0, 0, 0}}
-int[][][] numsss = new int[4][5][6];		// {null, null, null, null}
+int[][][] numsss = new int[2][3][4];		// {{{ 0, 0, 0, 0}, { 0, 0, 0, 0}, { 0, 0, 0, 0}}, {{ 0, 0, 0, 0}, { 0, 0, 0, 0}, { 0, 0, 0, 0}}}
 
 ```
 
