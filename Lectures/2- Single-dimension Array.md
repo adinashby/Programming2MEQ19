@@ -1,4 +1,4 @@
-# Chapter 01 -- Single-dimension Array
+# Single-dimension Array
 
 ## 1. What is an Array
 
