@@ -53,6 +53,10 @@ List<Integer> l4 = new ArrayList();				   // ArrayList is a special kind of arra
 // then use Arrays.asList() to cast the array into a List
 Integer[] nums = {1, 2, 3, 1, 1, 1};     // array
 List<Integer> l5 = new ArrayList(Arrays.asList(nums));
+
+Collections.sort(newList); // sorts the ArrayList
+
+Collections.reverse(newList); // reverses the ArrayList
 ```
 
 ## 4 Methods
