@@ -1,4 +1,4 @@
-# 2.5 Class Diagram
+# Class Diagram
 
 ## 1. What is Class Diagram
 
