@@ -1,3 +1,5 @@
+package myhelpers;
+import mymains.Dog;
 
 public class MyTests6 {
 
@@ -20,5 +22,7 @@ public class MyTests6 {
 		Cat mySecondCat = new Cat("G", "Female", "soft", 2);
 		
 		System.out.println(mySecondCat.getGender());
+		
+		myCat.age = 95;
 	}
 }

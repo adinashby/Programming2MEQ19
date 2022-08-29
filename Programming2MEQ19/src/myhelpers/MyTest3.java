@@ -1,3 +1,4 @@
+package myhelpers;
 import java.util.Arrays;
 
 public class MyTest3 {

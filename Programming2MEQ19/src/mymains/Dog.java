@@ -1,3 +1,6 @@
+package mymains;
+import myhelpers.Animal;
+import myhelpers.Mammal;
 
 public class Dog extends Mammal {
 	private String breed;
@@ -17,5 +20,11 @@ public class Dog extends Mammal {
 	
 	public void bark() {
 		System.out.println("Woof woof");
+	}
+	
+	public void test() {
+		Animal myAnimal = new Animal();
+		
+		//myAnimal.name = "a";
 	}
 }

@@ -1,3 +1,4 @@
+package myhelpers;
 import java.util.Scanner;
 
 public class MyTests {

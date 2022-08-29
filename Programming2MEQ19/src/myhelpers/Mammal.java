@@ -1,3 +1,4 @@
+package myhelpers;
 
 public class Mammal extends Animal {
 	private String furType;
@@ -15,7 +16,12 @@ public class Mammal extends Animal {
 		super(name, gender);
 		this.furType = furType;
 	}
-
+	
+	@Override
+	public void makeASound() {
+		System.out.println("In Mammal");
+	}
+	
 	public String getFurType() {
 		return furType;
 	}

@@ -1,3 +1,4 @@
+package myhelpers;
 
 public class MyTests2 {
 
