@@ -7,7 +7,7 @@ When we have a collection of Java-defined Class data, for example an `ArrayList<
 We can use the `Collections.sort()` method to sort the collection ascendingly. And if we want the data to be sorted descendingly, we can use the `Collections.reverse()` method after.
 
 ```java
-ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(new Integer[]{1, 3, 4, 2}));
+List<Integer> nums = Arrays.asList(new Integer[]{1, 3, 4, 2});
 
 // sort the data ascendingly
 Collections.sort(nums);			// 1, 2, 3, 4
