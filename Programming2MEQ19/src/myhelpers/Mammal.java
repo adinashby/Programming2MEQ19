@@ -1,6 +1,6 @@
 package myhelpers;
 
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
 	private String furType;
 	
 	public Mammal() {
@@ -17,10 +17,7 @@ public class Mammal extends Animal {
 		this.furType = furType;
 	}
 	
-	@Override
-	public void makeASound() {
-		System.out.println("In Mammal");
-	}
+	public abstract void makeASound();
 	
 	public String getFurType() {
 		return furType;

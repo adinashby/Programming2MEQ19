@@ -15,7 +15,7 @@ public class Cat extends Mammal {
 	
 	@Override
 	public void makeASound() {
-		System.out.println("In Cat");
+		System.out.println("Meow");
 	}
 	
 	public int getAge() {
@@ -30,11 +30,11 @@ public class Cat extends Mammal {
 		System.out.println("Purrr");
 	}
 	
-	public void test() {
-		Animal myAnimal = new Animal();
-		
-		myAnimal.name = "Y";
-		
-	}
+//	public void test() {
+//		Animal myAnimal = new Animal();
+//		
+//		myAnimal.name = "Y";
+//		
+//	}
 
 }

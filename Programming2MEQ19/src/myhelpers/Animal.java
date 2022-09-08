@@ -2,7 +2,7 @@ package myhelpers;
 
 import java.util.Objects;
 
-public class Animal {
+public abstract class Animal {
 	protected String name;
 	String gender;
 	
@@ -15,9 +15,7 @@ public class Animal {
 		this.gender = gender;
 	}
 	
-	public void makeASound() {
-		System.out.println("In Animal");
-	}
+	public abstract void makeASound();
 	
 	public String getName() {
 		return name;
