@@ -33,6 +33,8 @@ public class MyTests9 {
 		System.out.println(students);
 		Collections.sort(students);
 		System.out.println(students);
+		
+		List<Integer> list = Arrays.asList(new Integer[] {2, 0, 1, 7});
 	}
 
 }
