@@ -20,7 +20,7 @@ In Java, both `error` and `exception` are defined as classes, and both of them b
 
 A `checked exception` is an exception Java will pre-detect it and you have to prepare a solution for it, if not, Java will not allow you to execute the code.
 
-while `unchecked exception` is an exception Java will pre-detect it, so you don't have to prepare a solution for it, and you can directly execute the code.
+while `unchecked exception` is an exception Java will not pre-detect it, so you don't have to prepare a solution for it, and you can directly execute the code.
 
 `Error` and `Runtime exception` are both `unchecked`, while all other exceptions are `checked` .
 
